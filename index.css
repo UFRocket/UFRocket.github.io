@@ -1,81 +1,18 @@
-section.container {
-    width: 100%;
-    border: 1px solid gray;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+body {
+  background-color: black;
+  font: 22px Monaco, MonoSpace;
 }
 
-@font-face {
-  font-family: 'Chalkduster';
-  src: url('../fonts/Chalkduster.ttf');
-}
-
-header {
-    padding: 1em;
-    color: white;
-    background-color: black;
-    clear: left;
-    text-align: center;
-}
-
-/* navigation menu */
-nav {
-    max-width: 250px;
-    margin: 0;
-    padding: 10px;
-    text-transform: uppercase;
-    background-color: #f1f1f1;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 225px;
-}
-
-nav ul a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
-nav li a:hover {
-    background-color: #555;
-    color: white;
-}
-
-/* navigation menu section links */
-.divider {
-  background-color: LightSeaGreen;
-}
-
-/* main content */
 .header {
-  margin: 20px;
-  background-color: 333333;
-  border-style: none;
-  padding: none;
-}
-
-div {
-    border-left: 1px solid gray;
-    padding: 1em;
-    margin: 20px;
-    overflow: hidden;
-    background-color: #3B653D;
-    border-width:5px;
-    border-style: ridge;
-    border-color: #B8860B;
-}
-
-h1 {
+  height: 100px;
   text-align: center;
+  padding: 10px 10px 0px 10px;
+  font: 22px Monaco, MonoSpace;
   color: white;
-  font-family: 'Chalkduster';
 }
 
-/* h2 labeled heading titles */
-h2 {
-  color: black;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

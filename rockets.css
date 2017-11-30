@@ -1,0 +1,19 @@
+button {
+  background-color: #B0C4DE;
+  padding: 10px;
+}
+
+button a {
+  text-decoration: none;
+  font: 18px Monaco, MonoSpace;
+  color: blue;
+}
+
+.header {
+  background-color: black;
+  margin-top: 10px;
+  padding: 10px;
+  color: white;
+  font: 22px Monaco, MonoSpace;
+  text-align: center;
+}
