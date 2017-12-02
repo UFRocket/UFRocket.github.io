@@ -45,7 +45,7 @@ permalink: /rockets
 
   <map name="image-map">
       <area target="" alt="nose cone" title="nose cone" href="#nose_cone" coords="113,214,146,197,168,188,188,187,197,186,195,234,198,240,183,241,162,236,145,229" shape="poly">
-      <area target="" alt="nose cone label" title="nose cone label" href="#nose_cone" coords="16,255,128,323" shape="rect">
+      <area target="" alt="nose cone label" title="nose cone" href="#nose_cone" coords="16,255,128,323" shape="rect">
       <area target="" alt="shock cord" title="shock cord" href="#shock_cord" coords="202,216,258,222,311,228,313,236,213,237" shape="poly">
       <area target="" alt="shock cord label" title="shock cord label" href="#shock_cord" coords="127,347,187,387" shape="rect">
       <area target="" alt="parachute lines label" title="parachute lines label" href="#para_lines" coords="34,94,123,136" shape="rect">
@@ -72,10 +72,12 @@ permalink: /rockets
 <!-- nose cone -->
 <div id="nose_cone" class="overlay">
 	<div class="popup">
-		<h2>Here i am</h2>
+		<h2>Nose Cone</h2>
 		<a class="close" href="#parts">&times;</a>
 		<div class="content">
-			Thank to pop me out of that button, but now i'm done so you can close this window.
+			Affects the thermodynamics<br>
+      Reduces drag<br>
+      Hobbyists often choose ogive
 		</div>
 	</div>
 </div>
@@ -105,10 +107,11 @@ permalink: /rockets
 <!-- parachute -->
 <div id="parachute" class="overlay">
 	<div class="popup">
-		<h2>Here i am</h2>
+		<h2>Parachute</h2>
 		<a class="close" href="#parts">&times;</a>
 		<div class="content">
-			Thank to pop me out of that button, but now i'm done so you can close this window.
+			Deploys at apogee(highest point)<br>
+      Slows descent of rocket for safe recovery<br>
 		</div>
 	</div>
 </div>
@@ -149,10 +152,13 @@ permalink: /rockets
 <!-- rocket engine -->
 <div id="rocket_eng" class="overlay">
 	<div class="popup">
-		<h2>Here i am</h2>
+		<h2>Rocket Engine</h2>
 		<a class="close" href="#parts">&times;</a>
 		<div class="content">
-			Thank to pop me out of that button, but now i'm done so you can close this window.
+			Motor contains fuel<br>
+      Potential energy --> Kinetic energy<br>
+      Chemical reaction provides thrust<br>
+      Newton's Third Law
 		</div>
 	</div>
 </div>
@@ -161,10 +167,12 @@ permalink: /rockets
 <!-- fins -->
 <div id="fins" class="overlay">
 	<div class="popup">
-		<h2>Here i am</h2>
+		<h2>Fins</h2>
 		<a class="close" href="#parts">&times;</a>
 		<div class="content">
-			Thank to pop me out of that button, but now i'm done so you can close this window.
+			Provides stability at the cost of more drag<br>
+      No set shape<br>
+      Symmetrically placed around rockets
 		</div>
 	</div>
 </div>
@@ -172,10 +180,12 @@ permalink: /rockets
 <!-- body tube -->
 <div id="body_tube" class="overlay">
 	<div class="popup">
-		<h2>Here i am</h2>
+		<h2>Body Tube</h2>
 		<a class="close" href="#parts">&times;</a>
 		<div class="content">
-			Thank to pop me out of that button, but now i'm done so you can close this window.
+			Structural component of rocket<br>
+      Provides payload (storage) space<br>
+      Length and diameter affect center of gravity and stability
 		</div>
 	</div>
 </div>
