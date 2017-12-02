@@ -1,12 +1,12 @@
 button {
-  background-color: #B0C4DE;
+  background-color: #5B5EA6;
   padding: 10px;
 }
 
 button a {
   text-decoration: none;
   font: 18px Monaco, MonoSpace;
-  color: blue;
+  color: white;
 }
 
 .header {
@@ -16,4 +16,98 @@ button a {
   color: white;
   font: 22px Monaco, MonoSpace;
   text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+  text-decoration: none;
+  font: 14px Monaco, MonoSpace;
+}
+
+h2 {
+  font:20px Monaco, MonoSpace;
+  font-weight: bold;
+}
+
+p {
+  font:14px Monaco, MonoSpace;
+}
+
+#basics {
+  background-color: #F7786B;
+  padding: 1em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#parts {
+  background-color: #98DDDE;
+  padding: 1em;
+  text-align: center;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
 }

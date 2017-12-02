@@ -19,6 +19,7 @@ permalink: /
 <body>
 
 <div class="header">
+  <p>Interested in Rockets?</p>
   <p>Click on a topic to learn more!</p>
 </div>
 

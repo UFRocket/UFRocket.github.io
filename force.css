@@ -1,12 +1,12 @@
 button {
-  background-color: #B0C4DE;
+  background-color: #5B5EA6;
   padding: 10px;
 }
 
 button a {
   text-decoration: none;
   font: 18px Monaco, MonoSpace;
-  color: blue;
+  color: white;
 }
 
 .header {
@@ -22,11 +22,41 @@ nav {
   text-align: center;
 }
 
-li {
+ul li {
     display: inline;
 }
 
 li a {
   text-decoration: none;
   font: 14px Monaco, MonoSpace;
+}
+
+h2 {
+  font:20px Monaco, MonoSpace;
+  font-weight: bold;
+}
+
+p {
+  font:14px Monaco, MonoSpace;
+}
+
+#N1 {
+  background-color: #39CCCC;
+  padding: 1em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#N2 {
+  background-color: #71EE68;
+  padding: 1em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#N3 {
+  background-color: #FFC300;
+  padding: 1em;
+  margin-bottom: 20px;
+  text-align: center;
 }
