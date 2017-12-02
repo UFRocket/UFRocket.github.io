@@ -1,3 +1,4 @@
+/* navigation buttons */
 button {
   background-color: #5B5EA6;
   padding: 10px;
@@ -18,6 +19,7 @@ button a {
   text-align: center;
 }
 
+/* navigation links on page*/
 nav {
   text-align: center;
 }
@@ -40,6 +42,7 @@ p {
   font:14px Monaco, MonoSpace;
 }
 
+/* Newton's First Law section */
 #N1 {
   background-color: #39CCCC;
   padding: 1em;
@@ -47,6 +50,7 @@ p {
   text-align: center;
 }
 
+/* Newton's Second Law section */
 #N2 {
   background-color: #71EE68;
   padding: 1em;
@@ -54,6 +58,7 @@ p {
   text-align: center;
 }
 
+/* Newton's Third Law section */
 #N3 {
   background-color: #FFC300;
   padding: 1em;

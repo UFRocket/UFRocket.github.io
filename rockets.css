@@ -40,6 +40,7 @@ p {
   font:14px Monaco, MonoSpace;
 }
 
+/* Rocket basics section */
 #basics {
   background-color: #F7786B;
   padding: 1em;
@@ -47,12 +48,54 @@ p {
   text-align: center;
 }
 
+/* hover over image properties */
+.container {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.image {
+  display: block;
+  height: auto;
+}
+
+.hover_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #B2CED9;
+}
+
+.container:hover .hover_overlay {
+  opacity: 1;
+}
+
+.text {
+  color: DimGray;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/* Rocket parts section */
 #parts {
   background-color: #98DDDE;
   padding: 1em;
   text-align: center;
 }
 
+/* Rocket parts popup box */
 .overlay {
   position: fixed;
   top: 0;

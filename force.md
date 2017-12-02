@@ -10,6 +10,7 @@ permalink: /force
   <title>Force</title>
 </head>
 
+<!-- navigation buttons -->
 <header>
   <button><a href="/">Home</a></button>
   <button><a href="/force">Force</a></button>
@@ -19,6 +20,7 @@ permalink: /force
   </div>
 </header>
 
+<!-- navigation links for page -->
 <nav>
   <ul>
     <li><a href="#N1">Newton's First Law |</a></li>
@@ -27,23 +29,30 @@ permalink: /force
   </ul>
 </nav>
 
+<!-- Newton's First Law -->
 <div id="N1">
-  <h2>Newton's First Law</h2>
-  <p>An object will stay at rest unless acted upon by an outside force</p>
-  <p>An object in motion will stay in motion unless acted upon by an outside force</p>
+  <h2><u>Newton's First Law</u></h2>
+  <p>&middot; An object will stay at rest unless acted upon by an outside force</p>
+  <img src="/assets/images/force_rest.png">
+  <p>&middot; An object in motion will stay in motion unless acted upon by an outside force</p>
+  <img src="/assets/images/force_motion.png">
 </div>
 
+<!-- Newton's Second Law -->
 <div id="N2">
-  <h2>Newton's Second Law</h2>
-  <p>Force = mass * acceleration OR acceleration = Force/mass</p>
-  <p>Object’s acceleration is
-  <p>- directly proportional to force</p>
-  <p>- Inversely proportional to mass</p>
-  </p>
-  <p>The more force, the more acceleration</p>
+  <h2><u>Newton's Second Law</u></h2>
+  <p>Object’s acceleration is</p>
+    <p>- directly proportional to force</p>
+    <p><b><font color="#4169E1">Force = mass x acceleration</font></b></p>
+    <p>- Inversely proportional to mass</p>
+    <p><b><font color="#4169E1">acceleration = Force/mass</font></b></p>
+  <p>&middot; The more force, the more acceleration</p>
+  <img src="/assets/images/more_force.png">
 </div>
 
+<!-- Newton's Third Law -->
 <div id="N3">
-  <h2>Newton's Third Law</h2>
-  <p>For every force there is an equal and opposite reaction force</p>
+  <h2><u>Newton's Third Law</u></h2>
+  <p>&middot; For every force there is an equal and opposite reaction force</p>
+  <img src="/assets/images/n3.png" width="300">
 </div>
