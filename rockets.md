@@ -72,12 +72,15 @@ permalink: /rockets
 <!-- nose cone -->
 <div id="nose_cone" class="overlay">
 	<div class="popup">
-		<h2>Nose Cone</h2>
+		<h2>Nose Cone Payload (Removable)</h2>
 		<a class="close" href="#parts">&times;</a>
 		<div class="content">
-			Affects the thermodynamics<br>
-      Reduces drag<br>
-      Hobbyists often choose ogive
+			<ul>
+        <li>Affects the thermodynamics</li>
+        <li>Reduces drag</li>
+        <li>Hobbyists often choose ogive</li>
+      </ul>
+      <img src="/assets/images/nose cones.png" width="300">
 		</div>
 	</div>
 </div>
@@ -96,10 +99,11 @@ permalink: /rockets
 <!-- parachute lines -->
 <div id="para_lines" class="overlay">
 	<div class="popup">
-		<h2>Here i am</h2>
+		<h2>Parachute Lines</h2>
 		<a class="close" href="#parts">&times;</a>
 		<div class="content">
-			Thank to pop me out of that button, but now i'm done so you can close this window.
+      See <b>Parachute</b> for more info!
+      <img src="/assets/images/parachute.png" height="300">
 		</div>
 	</div>
 </div>
@@ -110,8 +114,11 @@ permalink: /rockets
 		<h2>Parachute</h2>
 		<a class="close" href="#parts">&times;</a>
 		<div class="content">
-			Deploys at apogee(highest point)<br>
-      Slows descent of rocket for safe recovery<br>
+      <ul>
+        <li>Deploys at <b><font color="green">apogee</font></b> (highest point)</li>
+        <li>Slows descent of rocket for safe recovery</li>
+      </ul>
+      <img src="/assets/images/parachute.png" height="300">
 		</div>
 	</div>
 </div>
@@ -155,10 +162,13 @@ permalink: /rockets
 		<h2>Rocket Engine</h2>
 		<a class="close" href="#parts">&times;</a>
 		<div class="content">
-			Motor contains fuel<br>
-      Potential energy --> Kinetic energy<br>
-      Chemical reaction provides thrust<br>
-      Newton's Third Law
+    <ul>
+      <li>Motor contains fuel</li>
+      - Potential energy &rarr; Kinetic energy<br>
+      - Chemical reaction provides thrust<br>
+      <li>Newton's Third Law</li>
+    </ul>
+    <img src="/assets/images/motor.png" width="200">
 		</div>
 	</div>
 </div>
@@ -170,9 +180,12 @@ permalink: /rockets
 		<h2>Fins</h2>
 		<a class="close" href="#parts">&times;</a>
 		<div class="content">
-			Provides stability at the cost of more drag<br>
-      No set shape<br>
-      Symmetrically placed around rockets
+      <ul>
+        <li>Provides stability at the cost of more drag</li>
+        <li>No set shape</li>
+        <li>Symmetrically placed around rockets</li>
+      </ul>
+      <img src="/assets/images/fins.png" width="400">
 		</div>
 	</div>
 </div>
@@ -183,9 +196,12 @@ permalink: /rockets
 		<h2>Body Tube</h2>
 		<a class="close" href="#parts">&times;</a>
 		<div class="content">
-			Structural component of rocket<br>
-      Provides payload (storage) space<br>
-      Length and diameter affect center of gravity and stability
+      <ul>
+        <li>Structural component of rocket</li>
+        <li>Provides payload (storage) space</li>
+        <li>Length and diameter affect center of gravity and stability</li>
+      </ul>
+      <img src="/assets/images/body tube.png" width="400">   
 		</div>
 	</div>
 </div>
